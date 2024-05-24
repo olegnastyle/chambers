@@ -221,3 +221,35 @@ header {
     font-weight: 700;
     line-height: 24.8px;    
 }
+
+/* наши клиенты */
+
+.client {
+    margin-top: 115px;
+}
+
+.client_carusel {
+    width: 900px;
+    height: 216px;
+}
+
+.client_carusel .swiper-slide img {
+    height: 216px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: #FAFBDF;
+    width: max-content !important;
+    height: max-content !important;
+    border-radius: 10px;
+}
+
+.swiper-wrapper {
+    padding: 0 100px;
+}

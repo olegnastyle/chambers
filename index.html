@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <!-- подключаем Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header>
@@ -61,25 +64,60 @@
                     <p><span>Описания</span>Нужен был менеджер с опытом продаж в b2b на 7+ млн рублей в месяц. Мы обработали рынок, провели 50 внутренних интервью и передали заказчику 32 потенциальных сотрудника, двое из которых были выведены на работу.</p>
                 </div>
                 <div class="portfolio_item">
-                    <h3>Менеджер по продажам</h3>
+                    <h3>Продавцы-консультанты ВкусВилл</h3>
                     <ul>
-                        <li><span>Сфера:</span> Оптовая продажа масел</li>
-                        <li><span>Город:</span> Екатеринбург</li>
-                        <li><span>Сроки подбора:</span> 10 дней</li>
+                        <li><span>Сфера:</span> Розничная торговля</li>
+                        <li><span>Город:</span> Москва, Волгоград, Санкт-Петербург</li>
+                        <li><span>Сроки подбора:</span> 15 дней</li>
                     </ul>
-                    <p><span>Описания</span>Нужен был менеджер с опытом продаж в b2b на 7+ млн рублей в месяц. Мы обработали рынок, провели 50 внутренних интервью и передали заказчику 32 потенциальных сотрудника, двое из которых были выведены на работу.</p>
+                    <p><span>Описания</span>Подобрали 18 уже работающих продавцов. Клиент был рад, т.к. изначально планировал обучать продавцов с 0.</p>
                 </div>
                 <div class="portfolio_item">
-                    <h3>Менеджер по продажам</h3>
+                    <h3>Курьеры</h3>
                     <ul>
-                        <li><span>Сфера:</span> Оптовая продажа масел</li>
-                        <li><span>Город:</span> Екатеринбург</li>
-                        <li><span>Сроки подбора:</span> 10 дней</li>
+                        <li><span>Сфера:</span> Курьерские доставки</li>
+                        <li><span>Город:</span> города России</li>
+                        <li><span>Сроки подбора:</span> 20 дней</li>
                     </ul>
-                    <p><span>Описания</span>Нужен был менеджер с опытом продаж в b2b на 7+ млн рублей в месяц. Мы обработали рынок, провели 50 внутренних интервью и передали заказчику 32 потенциальных сотрудника, двое из которых были выведены на работу.</p>
+                    <p><span>Описания</span>За это время нашли 123 курьера, на пешие и авто доставки в сервис ЯндексЕда.</p>
                 </div>
             </div>
             <button class="button_active">Оставить заявку</button>
+        </div>
+        <div class="client">
+            <!-- Slider main container -->
+            <div class="swiper client_carusel">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide"><img src="./style/img/brend/vkusvill.svg" alt="ВкусВилл"></div>
+                    <div class="swiper-slide"><img src="./style/img/brend/yandex.svg" alt="Яндекс"></div>
+                    <div class="swiper-slide"><img src="/style/img/brend/mtc.svg" alt="МТС"></div>
+                </div>
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"><img src="./style/img/arrow-left.svg" alt="стрелочка влево"></div>
+                <div class="swiper-button-next"><img src="./style/img/arrow-right.svg" alt="стрелочка вправо"></div>
+            
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+            <script>
+                const swiper = new Swiper('.client_carusel', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+                slidesPerView: 2,
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                });
+            </script>
         </div>
     </main>
 </body>
