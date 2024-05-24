@@ -225,7 +225,6 @@ header {
 /* наши клиенты */
 
 .client {
-    margin-top: 115px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -238,13 +237,14 @@ header {
     font-size: 60px;
     line-height: 59.52px;   
     margin-bottom: 75px; 
+    margin-top: 115px;
 }
 
 .swiper {
     width: 100%;
 }
 
-.swiper-wrapper {
+.client_wrapper {
     width: 1600px !important;
     overflow: hidden;
     margin: auto;
@@ -255,3 +255,19 @@ header {
 .swiper-button-next::after {
     display: none;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+    margin: 0 10px;
+}
+
+/* отзывы */
+
+.feet_swiper img {
+    width: 280px;
+}
+
+.feet_swiper .swiper-wrapper {
+    justify-content: start;
+}
+

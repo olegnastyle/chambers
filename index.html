@@ -89,7 +89,7 @@
             <!-- слайдер -->
             <div class="swiper">
                 <!-- контейнер для слайдов -->
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper client_wrapper">
                 <!-- слайды -->
                     <div class="swiper-slide"><img src="./style/img/brend/vkusvill.svg" alt="ВкусВилл"></div>
                     <div class="swiper-slide"><img src="./style/img/brend/yandex.svg" alt="Яндекс"></div>
@@ -99,24 +99,64 @@
                 <div class="swiper-button-prev"><img src="./style/img/arrow-left.svg" alt="стрелочка влево"></div>
                 <div class="swiper-button-next"><img src="./style/img/arrow-right.svg" alt="стрелочка вправо"></div>
             </div>
-            <script>
-                const swiper = new Swiper('.swiper', {
-                // Optional parameters
-                direction: 'horizontal', // горизонтальный слайдер
-                loop: true, // бесконечная прокрутка
-                slidesPerView: 2, // выводить два слайда
-                autoplay: {
-                    delay: 2500, // время задержки в мс
-                    disableOnInteraction: false, // продолжает прокрутку после взаимодействия с пользователем
-                },
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                });
-            </script>
+        </div>
+        <div class="client">
+            <h2>Отзывы</h2>
+            <!-- слайдер -->
+            <div class="swiper feet_swiper">
+                <!-- контейнер для слайдов -->
+                <div class="swiper-wrapper">
+                <!-- слайды -->
+                <div class="swiper-slide"><img src="https://s3-alpha-sig.figma.com/img/0468/2464/4c8cd9c780862dc42686aa82aa6b89c8?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hMuTfHf-32GRLCbXh8k8QtOlnpTbZUPmr~GV3Q~0odxZm2Jz318f9uvuuy89EIE26ap9jBYc53yUgNooQx9ohIxlqF8p9wNoeGelPaJh8VrlEScjF50wju~c5znOm-fztvVvp5l6VG09ycuTTGsfuXQ5t6y9ptP13NjAx3XwFkP5sjv4MtKS60DW-Um9jRj0vxOoE9k8-Qi222RwjCeSKOnbx8WrgLHw-w9odwLt2Ti2K5TIjc9I28kB1zcqlyvpssPnCC9hFJqXNAs8bz4SV-R5HpmywTsne4SbS8AosYKaRKjkk4rODyO6OVT8~CFqctD57ibexd-AntOwiBNtcw__" alt="Отзыв"></div>
+                <div class="swiper-slide"><img src="https://s3-alpha-sig.figma.com/img/d75e/6bb2/d4eb884c574a8f070903c84c62e283e2?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aSgpDwykXKPGOC7t~zOPHoY6d9vTggPRYCwQ7Bw1yaW~PdjnFi1e-bxX8fMA2HQ1n3zMFoQJ-HonVkqIIc4HDlR3td6dWkX0V~D5hRBRDRp41NRwhA8BtMSfiS3eCWSFoGXCEDoue10Sx3wmU7CKTiaIbwNDHb~1V-8xhwAvJ0~pPzebSn7sRlDQFGrYNdc~lT900dZ9l6oR3ywsUHgjLHI64n1KX8UxAy81ykFMFi41O7dRDgf3NRqz7YRfHAUrEMVrLdmzCafp3VyFAcafg4tGFATqVcZUrUKOm2pccg-~R9b3aA5398SzdNeXT193tTUTLiIzCKqC0S~XMBSMdw__" alt="Отзыв"></div>
+                <div class="swiper-slide"><img src="https://s3-alpha-sig.figma.com/img/3278/4a4f/4ebfb5f563cd469e2ed4063bdc9380a4?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QuYUR1~sRaZG5XrWjtyTQ12rgPwPMhvB0tOvVbNvFI~LhSKUpE00KihsTjmjiqOEzYYVujTD7IETKvTJxUCrFwaAFSPfHgBBrBPo6AhrHUUrvSocjQdkaKx6D7kbhGVSq3Ap8AKXs0TebMj5MBXs8IdORx4trEARO0azC47hQX3baK4JHYR-3Ly0l4POvgfaFoXx0aKUwewaeBwA5zMphfHijl4UWqJPoVVAXQhoMVwSsQiaJQEnbzFjIhfGhIbVUm1~znN3AMzx21GjX8aNFaH59KUuRyTQvndvQa-NCs1HZN8PtzPTfnoA44HmLrNS13CKuzGn-h1IvOspuFl2ew__" alt="Отзыв"></div>
+                <div class="swiper-slide"><img src="https://s3-alpha-sig.figma.com/img/0468/2464/4c8cd9c780862dc42686aa82aa6b89c8?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hMuTfHf-32GRLCbXh8k8QtOlnpTbZUPmr~GV3Q~0odxZm2Jz318f9uvuuy89EIE26ap9jBYc53yUgNooQx9ohIxlqF8p9wNoeGelPaJh8VrlEScjF50wju~c5znOm-fztvVvp5l6VG09ycuTTGsfuXQ5t6y9ptP13NjAx3XwFkP5sjv4MtKS60DW-Um9jRj0vxOoE9k8-Qi222RwjCeSKOnbx8WrgLHw-w9odwLt2Ti2K5TIjc9I28kB1zcqlyvpssPnCC9hFJqXNAs8bz4SV-R5HpmywTsne4SbS8AosYKaRKjkk4rODyO6OVT8~CFqctD57ibexd-AntOwiBNtcw__" alt="Отзыв"></div>
+                <div class="swiper-slide"><img src="https://s3-alpha-sig.figma.com/img/d75e/6bb2/d4eb884c574a8f070903c84c62e283e2?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aSgpDwykXKPGOC7t~zOPHoY6d9vTggPRYCwQ7Bw1yaW~PdjnFi1e-bxX8fMA2HQ1n3zMFoQJ-HonVkqIIc4HDlR3td6dWkX0V~D5hRBRDRp41NRwhA8BtMSfiS3eCWSFoGXCEDoue10Sx3wmU7CKTiaIbwNDHb~1V-8xhwAvJ0~pPzebSn7sRlDQFGrYNdc~lT900dZ9l6oR3ywsUHgjLHI64n1KX8UxAy81ykFMFi41O7dRDgf3NRqz7YRfHAUrEMVrLdmzCafp3VyFAcafg4tGFATqVcZUrUKOm2pccg-~R9b3aA5398SzdNeXT193tTUTLiIzCKqC0S~XMBSMdw__" alt="Отзыв"></div>
+                <div class="swiper-slide"><img src="https://s3-alpha-sig.figma.com/img/3278/4a4f/4ebfb5f563cd469e2ed4063bdc9380a4?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QuYUR1~sRaZG5XrWjtyTQ12rgPwPMhvB0tOvVbNvFI~LhSKUpE00KihsTjmjiqOEzYYVujTD7IETKvTJxUCrFwaAFSPfHgBBrBPo6AhrHUUrvSocjQdkaKx6D7kbhGVSq3Ap8AKXs0TebMj5MBXs8IdORx4trEARO0azC47hQX3baK4JHYR-3Ly0l4POvgfaFoXx0aKUwewaeBwA5zMphfHijl4UWqJPoVVAXQhoMVwSsQiaJQEnbzFjIhfGhIbVUm1~znN3AMzx21GjX8aNFaH59KUuRyTQvndvQa-NCs1HZN8PtzPTfnoA44HmLrNS13CKuzGn-h1IvOspuFl2ew__" alt="Отзыв"></div>
+                </div>
+                <!-- навигация -->
+                <div class="swiper-button-prev"><img src="./style/img/arrow-left.svg" alt="стрелочка влево"></div>
+                <div class="swiper-button-next"><img src="./style/img/arrow-right.svg" alt="стрелочка вправо"></div>
+            </div>
         </div>
     </main>
+    <footer></footer>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // параметры слайдера
+        direction: 'horizontal', // горизонтальный слайдер
+        loop: true, // бесконечная прокрутка
+        slidesPerView: 2, // выводить два слайда
+        autoplay: {
+            delay: 2500, // время задержки в мс
+            disableOnInteraction: false, // продолжает прокрутку после взаимодействия с пользователем
+        },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+
+        new Swiper('.feet_swiper', {
+        // параметры слайдера
+        direction: 'horizontal', // горизонтальный слайдер
+        loop: true, // бесконечная прокрутка
+        slidesPerView: 3, // выводить два слайда
+        spaceBetween: 10, // промежуток мужду слайдами
+        autoplay: {
+            delay: 4500, // время задержки в мс
+            disableOnInteraction: false, // продолжает прокрутку после взаимодействия с пользователем
+        },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+
+
+        
+    </script>
 </body>
 </html>
