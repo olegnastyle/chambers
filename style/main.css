@@ -274,3 +274,43 @@ header {
     justify-content: start;
 }
 
+/* подвал */
+
+footer {
+    margin-top: 60px;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot_content {
+    display: flex;
+    gap: 24px;
+}
+
+.foot_content div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.foot_content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foot_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px !important;
+}
+
+.foot_content h3 {
+    font-family: Yanone Kaffeesatz;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 39.68px;    
+}
+
