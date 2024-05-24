@@ -230,6 +230,7 @@ header {
     align-items: center;
     flex-direction: column;
     gap: 75px;
+    padding: 0 50px;
 }
 
 .client h2 {
@@ -238,28 +239,18 @@ header {
     line-height: 59.52px;    
 }
 
-.client_carusel {
-    width: 900px;
-    height: 216px;
+.swiper {
+    width: 100%;
 }
 
-.client_carusel .swiper-slide img {
-    height: 216px;
+.swiper-wrapper {
+    width: 1600px !important;
+    overflow: hidden;
+    margin: auto;
+    margin-left: 100px;
 }
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
     display: none;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-    background-color: #FAFBDF;
-    width: max-content !important;
-    height: max-content !important;
-    border-radius: 10px;
-}
-
-.swiper-wrapper {
-    padding: 0 100px;
 }

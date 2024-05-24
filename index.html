@@ -86,31 +86,25 @@
         </div>
         <div class="client">
             <h2>Наши клиенты</h2>
-            <!-- Slider main container -->
-            <div class="swiper client_carusel">
-                <!-- Additional required wrapper -->
+            <!-- слайдер -->
+            <div class="swiper">
+                <!-- контейнер для слайдов -->
                 <div class="swiper-wrapper">
-                <!-- Slides -->
+                <!-- слайды -->
                     <div class="swiper-slide"><img src="./style/img/brend/vkusvill.svg" alt="ВкусВилл"></div>
                     <div class="swiper-slide"><img src="./style/img/brend/yandex.svg" alt="Яндекс"></div>
-                    <div class="swiper-slide"><img src="/style/img/brend/mtc.svg" alt="МТС"></div>
+                    <div class="swiper-slide"><img src="./style/img/brend/mtc.svg" alt="МТС"></div>
                 </div>
-                <!-- If we need pagination -->
-                <!-- <div class="swiper-pagination"></div> -->
-            
-                <!-- If we need navigation buttons -->
+                <!-- навигация -->
                 <div class="swiper-button-prev"><img src="./style/img/arrow-left.svg" alt="стрелочка влево"></div>
                 <div class="swiper-button-next"><img src="./style/img/arrow-right.svg" alt="стрелочка вправо"></div>
-            
-                <!-- If we need scrollbar -->
-                <!-- <div class="swiper-scrollbar"></div> -->
             </div>
             <script>
-                const swiper = new Swiper('.client_carusel', {
+                const swiper = new Swiper('.swiper', {
                 // Optional parameters
-                direction: 'horizontal',
-                loop: true,
-                slidesPerView: 2,
+                direction: 'horizontal', // горизонтальный слайдер
+                loop: true, // бесконечная прокрутка
+                slidesPerView: 2, // выводить два слайда
 
                 // Navigation arrows
                 navigation: {
