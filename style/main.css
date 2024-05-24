@@ -62,11 +62,11 @@ header {
     cursor: pointer;
 }
 
-.head_contact button:hover {
-    filter: brightness(1.2);
+.button_active:hover {
+    filter: brightness(0.9);
 }
 
-.head_contact button:active {
+.button_active:active {
     filter: brightness(1);
 }
 
@@ -101,4 +101,54 @@ header {
 .first_block button {
     margin-top: 20px;
     width: max-content;
+}
+
+/* услуги */
+
+.service {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.service h2 {
+    font-family: Yanone Kaffeesatz;
+    font-size: 60px;
+    line-height: 59.52px;   
+}
+
+.service_items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service_items aside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    width: 300px;
+}
+
+.service_items aside span {
+    font-family: Yanone Kaffeesatz;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 39.68px;
+    background-color: #B7E557;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;    
+}
+
+.service_items aside p {
+    font-family: Yanone Kaffeesatz;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
 }
