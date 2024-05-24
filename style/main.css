@@ -259,6 +259,9 @@ header {
 .swiper-button-prev,
 .swiper-button-next {
     margin: 0 10px;
+    background-color: #FAFBDF;
+    width: 50px !important;
+    border-radius: 10px;
 }
 
 /* отзывы */
