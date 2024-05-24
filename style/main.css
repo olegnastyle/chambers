@@ -226,6 +226,16 @@ header {
 
 .client {
     margin-top: 115px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.client h2 {
+    font-family: Yanone Kaffeesatz;
+    font-size: 60px;
+    line-height: 59.52px;    
 }
 
 .client_carusel {
