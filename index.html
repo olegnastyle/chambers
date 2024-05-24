@@ -105,7 +105,10 @@
                 direction: 'horizontal', // горизонтальный слайдер
                 loop: true, // бесконечная прокрутка
                 slidesPerView: 2, // выводить два слайда
-
+                autoplay: {
+                    delay: 2500, // время задержки в мс
+                    disableOnInteraction: false, // продолжает прокрутку после взаимодействия с пользователем
+                },
                 // Navigation arrows
                 navigation: {
                     nextEl: '.swiper-button-next',
