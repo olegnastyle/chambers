@@ -70,3 +70,35 @@ header {
     filter: brightness(1);
 }
 
+.first_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 80px;
+}
+
+.first_block div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.first_block h1 {
+    font-family: Yanone Kaffeesatz;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 69.44px;
+}
+
+.first_block p {
+    font-family: Raleway;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-wrap: balance;
+}
+
+.first_block button {
+    margin-top: 20px;
+    width: max-content;
+}
