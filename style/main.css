@@ -64,6 +64,8 @@ header {
     border-radius: 35px;
     text-shadow: 0px 4px 4px 0px #00000040;
     cursor: pointer;
+    width: max-content;
+    color: black;
 }
 
 .button_active:hover {
@@ -247,12 +249,17 @@ header {
     width: 100%;
 }
 
-.client_wrapper {
+.client_wrapper img {
+    height: 220px;
+    width: max-content;
+}
+
+/* .client_wrapper {
     width: 1600px !important;
     overflow: hidden;
     margin: auto;
     margin-left: 100px;
-}
+} */
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
