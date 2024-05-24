@@ -236,7 +236,8 @@ header {
 .client h2 {
     font-family: Yanone Kaffeesatz;
     font-size: 60px;
-    line-height: 59.52px;    
+    line-height: 59.52px;   
+    margin-bottom: 75px; 
 }
 
 .swiper {
