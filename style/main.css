@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    transition: all .1s linear;
+}
+
+body {
+    background-color: #FAFBDF;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.head_logo h2 {
+    font-family: Pacifico;
+    font-size: 32px;
+    line-height: 40.82px;
+    text-transform: uppercase;
+    color: #E0E257;
+}
+
+.head_logo p {
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #0000009E;
+}
+
+.head_contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.head_contact a {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: black;
+}
+
+.button_active {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    background: #B7E557;
+    padding: 25px 66px 25px 66px;
+    border-radius: 35px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    cursor: pointer;
+}
+
+.head_contact button:hover {
+    filter: brightness(1.2);
+}
+
+.head_contact button:active {
+    filter: brightness(1);
+}
+
