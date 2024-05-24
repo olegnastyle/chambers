@@ -270,7 +270,8 @@ header {
 .swiper-button-next {
     margin: 0 10px;
     background-color: #FAFBDF;
-    width: 50px !important;
+    width: 40px !important;
+    height: 40px !important;
     border-radius: 10px;
 }
 
