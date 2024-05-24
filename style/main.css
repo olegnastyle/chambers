@@ -287,6 +287,23 @@ footer {
 .foot_content {
     display: flex;
     gap: 24px;
+
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em; 
+}
+
+.foot_content a {
+    color: black;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;    
+}
+
+.foot_content a:hover {
+    text-decoration: underline;
 }
 
 .foot_content div {
@@ -299,7 +316,9 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+       
 }
+
 
 .foot_nav {
     display: flex;
